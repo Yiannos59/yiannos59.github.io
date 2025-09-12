@@ -424,10 +424,17 @@ Standing aside in safety staring at the terrifying power of nature is no longer 
 
   
 </body>
-
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+</script>
 
 
 </html>
+
 
 
 
