@@ -1,13 +1,9 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>News</title>
-  <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-<div id="navbar-placeholder"></div>
 
+  <div id="navbar-placeholder"></div>
+ <meta charset="UTF-8">
 <script>
   fetch('navbar.html')
     .then(response => response.text())
@@ -15,6 +11,12 @@
       document.getElementById('navbar-placeholder').innerHTML = data;
     });
 </script>
+
+  <title>Sotto Voce News</title>
+<link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
   <h1>NEWS </h1>
 
 </body>
@@ -102,4 +104,5 @@
     });
 </script>
 </html>
+
 
