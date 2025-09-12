@@ -182,6 +182,17 @@ skies and oceans that have been taken so much for granted in the Anthropocene ep
   </figure>
   <!-- add more figure blocks -->
 </div> </p>
+ <div id="footer"></div>
+
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+</script>
+</html>
+
 
 
 
