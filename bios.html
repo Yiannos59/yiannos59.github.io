@@ -270,6 +270,17 @@ composition (Horzitce , Czech Republic 1994), “Heroes’ Monument”,  (Heroes
 
 
 
+ <div id="footer"></div>
+
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+</script>
+</html>
+
 
 
 </html>
