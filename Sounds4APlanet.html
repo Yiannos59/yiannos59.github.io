@@ -40,3 +40,24 @@
   <figcaption></figcaption>
       </p>
         <p>Παραγωγή: Sotto Voce (Contemporary Arts) Ltd </p>
+
+
+     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <script>
+        function myMap() {
+            var mapOptions = {
+                center: new google.maps.LatLng(41.09105706265509, 23.548485346283076), // Replace with your coordinates
+                zoom: 10,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
+            var marker = new google.maps.Marker({
+                position: mapOptions.center,
+                map: map,
+                title: 'Σύλλογος φίλων Γραμμάτων και Τεχνών Σερρών' // Change the title as needed
+            });
+        }
+    </script>
+</head>
+<body onload="myMap()">
+    <h1>My Google Map</h1>
+    <div id="googleMap"></div>
