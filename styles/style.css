@@ -38,7 +38,21 @@ h3 {
   text-align: center;   /* Center align */
   margin-top: 20px;     /* Add space above */
 }
+a:link {
+  color: #2d301f;   /* unvisited link */
+}
 
+a:visited {
+  color: #2d301f;   /* visited link */
+}
+
+a:hover {
+  color: #6c754c;   /* mouse over link */
+}
+
+a:active {
+  color: #75694c;   /* when clicked */
+}
 
       
     }
@@ -224,6 +238,7 @@ footer a:hover {
     width: 100%;
     height: 100%;
 }
+
 
 
 
