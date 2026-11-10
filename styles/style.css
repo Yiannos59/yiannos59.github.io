@@ -28,7 +28,7 @@ h2 {
     font-size: 1.8rem;
       color: #333;
       text-align: center;
-      padding: 15px;
+      padding: 5px;
 }
 h3 {
   font-family: 'Jost', sans-serif; /* Use Jost font */
@@ -36,7 +36,7 @@ h3 {
   font-size: 1.6rm;      /* Font size */
   font-weight: bold;    /* Make text bold */
   text-align: center;   /* Center align */
-  margin-top: 20px;     /* Add space above */
+  margin-top: 5px;     /* Add space above */
 }
 a:link {
   color: #2d301f;   /* unvisited link */
