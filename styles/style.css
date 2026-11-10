@@ -51,6 +51,17 @@ h4 {
       text-align: center;
       padding: 15px;
 }
+h5 {
+  font-family: 'Jost', sans-serif; /* Use Jost font */
+     font-weight: 300; /* Light weight */
+    font-weight: bold;  
+    font-size: 3.6rem;
+      color: #333;
+      text-align: center;
+      padding: 15px;
+}
+
+
 a:visited {
   color: #2d301f;   /* visited link */
 }
