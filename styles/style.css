@@ -42,6 +42,15 @@ a:link {
   color: #2d301f;   /* unvisited link */
 }
 
+h4 {
+  font-family: 'Jost', sans-serif; /* Use Jost font */
+     font-weight: 300; /* Light weight */
+    font-weight: bold;  
+    font-size: 2.8rem;
+      color: #333;
+      text-align: center;
+      padding: 15px;
+}
 a:visited {
   color: #2d301f;   /* visited link */
 }
